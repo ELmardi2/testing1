@@ -1,0 +1,40 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+#main{
+  background-color: #F5BCA9;
+}
+div{
+  border: 3px dotted #acd;
+}
+#rass {
+    background-image: url(lcode.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#rass img{
+  border-radius: 90px;
+margin:10px auto;
+}
+#nav{
+  background-color: #8A0829;
+
+}
+
+span{
+  font-size: 24px;
+  color: blue;
+}
+footer{
+  background-color: #8A0829;
+  height: 90px;
+  width: auto;
+  text-align: center;
+}
+footer p{
+  color: #A9F5F2;
+ padding: 20px;
+  text-align: center;
+  font-size: 20px;
+}
