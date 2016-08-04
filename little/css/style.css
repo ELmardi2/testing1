@@ -1,0 +1,251 @@
+/*start global*/
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {}
+.container {
+  width: 1200px;
+  margin: auto;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/*End global*/
+
+
+/*start navbar*/
+
+.navbar {
+  font-size: 18px;
+  font-weight: bold;
+  height: 0px;
+  position: relative;
+  z-index: 14;
+}
+.navbar .brand {
+  float: left;
+  width: 40%;
+  text-transform: uppercase;
+}
+.navbar .links {
+  float: left;
+  width: 60%;
+}
+.navbar .links li {
+  display: inline-block;
+  padding: 18px 0px;
+  text-transform: capitalize;
+  margin: 0px 10px;
+  border-bottom: 2px solid transparent;
+}
+.navbar .links li a {
+  color: #FFF;
+  text-decoration: none;
+}
+.navbar .links li.active a, .navbar .links li a:hover {
+  border-bottom: 2px solid #008000;
+}
+.navbar .links li.active, .navbar .links li:hover {
+  border-bottom: 2px solid #008000;
+}
+
+/*End navbar*/
+
+.header {
+  background-image: url(../images/header.jpg);
+  background-size: 100%;
+}
+.header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  line-height: 183px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #FFF;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.header .bx-wrapper {
+  height: 100%;
+}
+.header .bx-wrapper .bx-viewport {
+  box-shadow: none;
+  border: 0px;
+  background: none;
+  height: 100% !important;
+  text-align: center;
+}
+.header .bxslider {
+  height: 100%;
+}
+.header .bxslider li {
+  display: block;
+}
+.header .bxslider h2 {
+  font-size: 60px;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+.header .bxslider span {
+  color: #008000;
+}
+
+/*--start services--*/
+
+.services h2 {}
+.services .item {
+  float: left;
+  width: 33.3333%;
+}
+.services .item i {
+  color: #008000;
+  float: left;
+  width: 20%;
+  margin-right: 5%;
+}
+.services .item .info {
+  float: left;
+  width: 75%;
+  margin-bottom: 20px;
+}
+.services .item .info p {
+  margin-top: 0;
+  color: #F78181;
+}
+.nos-groupes {
+  padding: 40px 20px;
+}
+
+.nos-groupes .box {
+  display: inline-block;
+}
+.nos-groupes .box:first-child {
+  width: 35%;
+}
+.nos-groupes .box:not(:first-child) {}
+.nos-groupes .h2 {
+  font-weight: normal;
+}
+
+/*<!--End services-->*/
+
+/*Avis-cli*/
+.avis-cli {
+  background-image: url(../images/phot.jpg);
+  height: 400px;
+  background-size: 100%;
+  text-align: center;
+  padding: 40px;
+}
+.avis-cli h2 {
+  font-size: 40px
+}
+.avis-cli q {
+  font-size: 25px;
+  font-weight: lighter;
+}
+.avis-cli p {
+  font-size: 30px;
+  color: #004d00;
+}
+.avis-cli .slider >div {
+  display: none;
+}
+.avis-cli .slider .active {
+display: block;
+}
+/*<!-- Start nos-pro-->*/
+.mon-projet{
+  padding: 60px 0;
+  height: 1000px;
+}
+.mon-projet h2{
+  font-weight: normal;
+}
+.mon-projet ul{
+  margin-top: 50px;
+}
+.mon-projet ul li{
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid #333300;
+  color: #333300;
+  border-radius: 15px;
+}
+.mon-projet ul .color{
+  background-color: #009933;
+  color: #fff;
+}
+.mon-projet .gellarie{
+  margin-top: 40px;
+  overflow: hidden;
+}
+.mon-projet .gellarie .row div:nth-child(2){
+  margin-left: 1%;
+  margin-right: 1%;
+}
+.mon-projet .gellarie .row > div{
+width: 32.66666%;
+float: left;
+margin-bottom: 12px;
+background-color: #ddd;
+position: relative;
+}
+.gellarie .row > div .over{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  line-height: 232px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #FFF;
+  text-align: center;
+  background-color: rgba(26, 188,156, 0.9);
+display: none;
+}
+.mon-projet .gellarie .row > div .heart{
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  color: #FFF;
+  display: none;
+}
+
+/*<!-- End nos-pro-->*/
+ /*start my framework*/
+.clearfix {
+  clear: both;
+}
+.special-Heading {
+  position: relative;
+}
+.special-Heading:after {
+  content: "";
+  display: block;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 40px;
+  border: 3px solid #1a0013;
+}
+.barriere {
+  color: #ccd;
+  border: 3px dashed green;
+  margin: 40px 0;
+  display: block;
+}
+
+/*End my framework*/
