@@ -1,95 +1,175 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-    <title>simple CV</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>CREATE CV</title>
     <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="css/boot.css">
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="font/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script type="text/javascript">
-
-    </script>
   </head>
   <body>
-    <nav class = "navbar navbar-default" role = "navigation">
-
-   <div class = "navbar-header">
-      <a class = "navbar-brand" href = "#">TutorialsPoint</a>
-   </div>
-
-   <div>
-      <form class = "navbar-form navbar-left" role = "search">
-
-         <div class = "form-group">
-            <input type = "text" class = "form-control" placeholder = "Search">
-         </div>
-         <button type = "submit" class = "btn btn-default">Submit</button>
-
-      </form>
-   </div>
-
-</nav>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-4">
-          first
+      <div class="container-fluid" id="main">
+        <nav class="navbar navbar-default" id="nav">
+       <div class="container-fluid">
+         <div class="navbar-header">
+         <ul class="nav navbar-nav" >
+           <li class="active"><a href="#">Home</a></li>
+           <li><a href="#FORMATIONS">Formations</a></li>
+           <li><a href="#Compétences">Compétences</a></li>
+           <li><a href="#profil">About me </a></li>
+           <li><a href="#">Contact me </a></li>
+         </ul>
+       </div>
+     </nav>
+        <div class="row-fluid">
+          <div class="container-fluid" id="rass">
+            <div class="row-fluid">
+              <div class="col-xs-4">
+                <h1  style="color: white; padding:z:15px;">Elmardi YAHIA</h1>
+                <i class="fa fa-twitter fa-4x"></i>
+                <i class="fa fa-linkedin fa-4x"></i>
+                <i class="fa fa-github fa-4x"></i>
+                <a href="#"><i class="fa fa-facebook fa-4x"></a></i>
+              </div>
+              <div class="col-xs-4">
+                <img src="images/zati.png" class="img-responsive" alt="ma photo" class="img-responsive center-block"/>
+              </div>
+              <div class="col-xs-4">
+                <img src="images/devlog.jpeg" class="img-responsive" alt="logo code" />
+              </div>
+            </div>
+            <hr>
+          </div>
+           <div class="container-fluid">
+             <div class="row-fluid" id="FORMATIONS">
+               <div class="col-xs-6">
+                 <h3 class="titre" style="color: white;">FORMATIONS</h3>
+                 <span>2016</span><p><strong>Formation qualifiante en développement web
+      SIMPLON. CO  Paris.</strong><br>
+      <small>Déplacement sur site pour installations des matériels et de systèmes informatiques dans les différentes facultés (montage des connexions
+      programmation, mise en ligne pour tous les éléments
+      bureautiques courants (imprimantes, photocopieuses,
+      boites mail partagées, partage des ressources)</small>
+                 </p><br>
+                 <span>2005-2009</span><p>
+                   <strong>Licence en génie informatique</strong><br>
+                   <small>Université d'Alnaileen <br>
+      Khartoum - Soudan</small>
+                 </p>
+                 <span>2006-2007</span><p>
+                   <strong>Diplôme en langue anglaise avancée</strong><br><small>International Internet Club/<br>
+      Khartoum - Soudan</small>
+                 </p>
+               </div>
+               <div class="col-xs-6 ">
+                 <h3>EXPERIENCES PROFESSIONNELLES</h3>
+                 <span>2010-2013</span><p>
+                   <strong>Professeur d'informatique en école secondaire
+      Ministère de l’Éducation
+      Darfour-Soudan</strong><br>
+      <small>Enseignement de l'informatique théorique (histoire de l'informatique , des  ordinateurs et des  langages de programmation)</small>
+                 </p>
+                <span>2008-2009</span><p>
+                  <strong>Technicien informatique
+      Université d'Alnaileen - Département Informatique
+      Khartoum – Soudan</strong><br>
+                  <small>Déplacement sur site pour installations des matériels et de systèmes informatiques dans les différentes facultés (montage des connexions
+      programmation, mise en ligne pour tous les éléments
+      bureautiques courants (imprimantes, photocopieuses,
+      boites mail partagées, partage des ressources)</small>
+                </p>
+               </div>
+             </div>
+           </div>
+           <div class="container-fluid">
+             <div class="row-fluid" id="Compétences">
+               <div class="col-xs-8">
+                 <div class="container-fluid">
+                   <h3>Compétence techniques</h3>
+                   <div class="container-fluid">
+                     <div class="row-fluid">
+                       <div class="col-xs-4">
+                          <img src="images/html.png" class="img-responsive" alt="ma photo" />
+                       </div>
+                       <div class="col-xs-4">
+                         <img src="images/css.png" class="img-responsive" alt="ma photo" />
+                       </div>
+                       <div class="col-xs-4">
+                         <img src="images/phpms.png" class="img-responsive" alt="ma photo" />
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+                 <div class="container-fluid">
+                   <div class="row-fluid">
+                     <div class="col-xs-4">
+                       <img src="images/js.png" class="img-responsive" alt="ma photo" />
+                     </div>
+                     <div class="col-xs-4">
+                      <img src="images/dcc.jpg" class="img-responsive" alt="ma photo" />
+                     </div>
+                     <div class="col-xs-4">
+                       <img src="images/cnc.jpg" class="img-responsive" alt="ma photo" />
+                     </div>
+                   </div>
+                 </div>
+               </div>
+               <div class="col-xs-4">
+                  <h3>Interêts</h3>
+                  <ul class="Intrêst">
+                    <i class="fa fa-pencil fa-4x"></i>
+                    <li>Écriturez</li>
+                    <li>#Lecture</li><i class="fa fa-futbol-o fa-4x"></i>
+                    <li>Football</li><i class="fa fa-book-o fa-4x"></i>
+                    <li>#Réseaux Sociaux</li><i class="fa fa-futbol-o fa-4x"></i>
+                  </ul>
+               </div>
+               <div class="container-fluid" id="tag">
+                 <div class="row-fluid" id="profil">
+                   <div class="col-xs-4">
+                      <h3>Langues</h3>
+                      <ul class="intrest">
+                        <li>Arabie</li>
+                        <li>Français</li>
+                        <li>Anglais</li>
+                        <li>Russe</li>
+                      </ul>
+                   </div>
+                   <div class="col-xs-4">
+                     <h3 class="container-fluid">Profil</h3>
+                     <p>
+                       Curieux, réfléchi, motivé, organisé, passionné par le numérique et la programmation, je souhaite intégrer une équipe en tant que développeur web.
+                     </p>
+                   </div>
+                   <div class="col-xs-4">
+                     <h3 class="container-fluid">Contact</h3>
+                     <strong>Addresse: <small>51 rue de la bienfaisance </br> 94300 Vincennes-France</small></strong>
+                     <strong><br> Tél:  <small>07-58-77-83-13 </small></strong><br>
+                       <i class="fa fa-twitter fa-4x"></i>
+                       <i class="fa fa-linkedin fa-4x"></i>
+                       <i class="fa fa-github fa-4x"></i>
+                       <i class="fa fa-facebook fa-4x"></i>
+                   </div>
+                 </div>
+               </div>
+             </div>
+           </div>
+           <footer>
+             <p>
+               all rights reserved to me Elmardi copyright&copy --2016
+             </p>
+           </footer>
         </div>
-        <div class="col-sm-4">
-          second
-        </div>
-        <div class="col-sm-4">
-          third
-        </div>
-      </div>
-    </div>
-    <div class="header">
-    <div class="slider">
-      slider
-    </div>
-    <div class="navbar">
-      <div class="container"><!--start Header-->
-        <h1>m <span>mardino</span></h1>
-        <ul>
-          <li>home</li>
-          <li>Education</li>
-          <li>skills</li>
-          <li>profil</li>
-          <li>contact me</li>
-        </ul>
-      </div><!--End Header-->
-  </div>
-  </div>
-  <form>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputFile">File input</label>
-    <input type="file" id="exampleInputFile">
-    <p class="help-block">Example block-level help text here.</p>
-  </div>
-  <div class="checkbox">
-    <label>
-      <input type="checkbox"> Check me out
-    </label>
-  </div>
-  <button type="submit" class="btn btn-default">Submit</button>
-</form>
-<form class="form-inline">
-  <div class="form-group">
-    <label for="exampleInputName2">Name</label>
-    <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputEmail2">Email</label>
-    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
-  </div>
-  <button type="submit" class="btn btn-default">Send invitation</button>
-</form>
+     </div>
+   <script src="js/jquery-3.1.0.min.js"></script>
+   <script src="js/jquery.mixitup shuffle.jquery.json"></script>
+   <script src="js/jquery.mixitup.js"></script>
+   <script src="js/jquery.bxslider.min.js"></script>
+   <script src="js/test.js"></script>
   </body>
 </html>

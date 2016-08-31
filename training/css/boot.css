@@ -1,0 +1,38 @@
+
+#main{
+    background-image: url(/home/simplonco/Bureau/testing1/training/images/cod.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+div{
+  width: auto;
+  height: auto;
+}
+
+#rass img{
+  border-radius: 90px;
+margin:10px auto;
+}
+p{color: #6600ff;}
+span{
+  font-size: 24px;
+  color:#660066;
+}
+footer{
+  background-color: #8A0829;
+  height: 90px;
+  width: auto;
+  text-align: center;
+}
+footer p{
+  color: #A9F5F2;
+ padding: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+ul{
+  list-style: none;
+}
+i{color: blue;
+  animation-timing-function: cubic-bezier(.42, 0, .58, 1);
+}
